@@ -1,8 +1,7 @@
 'use strict'
 
-
 var querystring = require('querystring'),
-    fs = require('fs');
+    fs = require('fs'),
     formidable = require('formidable');
 
 function start(response) {
@@ -16,7 +15,7 @@ function start(response) {
     '<body>'+ 
     '<from action ="/upload" enctype="multipart/form-data" '+ 
     'method="post">'+
-    '<input type="file" name="upload"> multiple="multiple" '+
+    '<input type="file" name="upload" multiple="multiple"> '+
     '<input type="submit" value="Upload file" />'+
     '</form>'+
     '</body>'+
