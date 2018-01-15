@@ -1,3 +1,4 @@
+'use strict'
 // import { request } from "http";
 
 var server = require("./server"); //linking to server.js

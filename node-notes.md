@@ -51,3 +51,9 @@ Node libraries
 The metaphor formidable uses is that of a form being submitted via HTTP POST, making it parseable in Node.js. 
 
 We are obviously going to read the contents of this file into our Node.js server, and unsurprisingly, there is a module for that - it’s called fs.
+
+#Node-Define
+is a javascript runtime enviornment
+I believe this is what allow our javascroipt code to run asynchronus
+
+#use strict- optimizes load time in javascript
